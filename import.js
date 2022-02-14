@@ -27,7 +27,7 @@ async function importFiles(ns) {
   
   for (const file of manifest) {
     let filePath = root + file;
-    var success = await ns.wget(filePath, `/${file}`);
+    var success = await ns.wget(filePath, `${file}`);
     if (success) {
       ns.tprint(`Imported '${file}' successfully`);
       succeeded++;
