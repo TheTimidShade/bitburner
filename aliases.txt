@@ -1,0 +1,7 @@
+alias KILL="run killswitch.js"
+alias SA3="scan-analyze 3"
+alias SA5="scan-analyze 5"
+alias SA10="scan-analyze 10"
+alias TASKER="run tasker.js --usehome true"
+alias SHOWSERVERS="run showservers.js"
+alias SERVERMONITOR="run showservers.js --monitor true"
